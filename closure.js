@@ -1,4 +1,5 @@
-// A closure in JavaScript is a function that remembers and has access to variables from its outer scope even after the outer function has finished executing
+// A closure in JavaScript is a function that remembers and has access to variables from its outer scope even after the outer 
+// function has finished executing
 // A closure in JavaScript is a combination of a function and the lexical environment.
 // Closures are used to modify data or variables safely.
 
@@ -42,7 +43,8 @@ const clousure1 = outerFunction1();
 // Code Reusability - The closure returned by createCounter() is a reusable counter function. 
 
 // disadvantages 
-// Memory Leaks - If closures are not properly managed, they can hold onto unnecessary memory because Closures retain references to the variables they access.
+// Memory Leaks - If closures are not properly managed, they can hold onto unnecessary memory because Closures retain references to 
+// the variables they access.
 
 // You can release the reference to the closure by setting closure to null.
 // clousure1=null

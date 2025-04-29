@@ -12,11 +12,12 @@ function reverseString(str) {
 }
 
 console.log(reverseString("interview, happy"));
+
 //2
 function reverseString1(str) {
     //split the string into array of characters
     //reverse array
-    //join the characters back into the strin
+    //join the characters back into the string
     return str.split("").reverse().join("");
 }
 console.log(reverseString1("reverse string"));

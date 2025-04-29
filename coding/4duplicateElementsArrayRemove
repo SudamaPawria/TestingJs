@@ -1,0 +1,31 @@
+// Remove Duplicates from an Array
+console.log(removeDuplicates([1, 2, 3, 4, 4, 5, 6, 6]));
+
+
+// using for loop
+function removeDuplicates(arr) {
+ // Empty array to store unique elements
+ const uniqueElements = [];
+ // Loop through the input array
+ for (let i = 0; i < arr.length; i++) {
+ // Check if the current element is
+ // already in the uniqueElements array
+ if (uniqueElements.indexOf(arr[i]) === -1) {
+ // If not found, push the element
+ // to the uniqueElements array
+ uniqueElements.push(arr[i]);
+ }
+ }
+ return uniqueElements;
+}
+
+function removeDuplicates(arr) {
+ // Step 1: Convert the array to a Set (which only allows unique values)
+ // Step 2: Convert the Set back to an array
+ return [...new Set(arr)];
+ }
+ 
+// Output: [1, 2, 3, 4, 5, 6]
+// Alternative way is to use for loop to iterate and assign the array value 
+// to new array without adding duplicate values
+ 
